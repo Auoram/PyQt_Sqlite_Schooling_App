@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color : #FBF6E9;   </string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="btnEtudiant">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>310</y>
+      <width>171</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #118B50;
+color: white;
+border-radius: 8px;
+padding: 8px 16px;
+</string>
+    </property>
+    <property name="text">
+     <string>Gérer les étudiants</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnFiliere">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>310</y>
+      <width>171</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #118B50;
+color: white;
+border-radius: 8px;
+padding: 8px 16px;</string>
+    </property>
+    <property name="text">
+     <string>Gérer les filières</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label1">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>130</y>
+      <width>531</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>18</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="acceptDrops">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color : #FBF6E9;
+color: #5DB996;</string>
+    </property>
+    <property name="text">
+     <string>Application de gestion de scolarité</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color : #FBF6E9; 
+color : #118B50;</string>
+   </property>
+   <widget class="QMenu" name="menuG_rer_les_tudiants">
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="title">
+     <string>Gérer les étudiants</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuG_rer_les_fili_res">
+    <property name="styleSheet">
+     <string notr="true">background-color : #FBF6E9; </string>
+    </property>
+    <property name="title">
+     <string>Gérer les filières</string>
+    </property>
+   </widget>
+   <addaction name="menuG_rer_les_tudiants"/>
+   <addaction name="menuG_rer_les_fili_res"/>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
